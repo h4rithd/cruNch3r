@@ -1,4 +1,4 @@
-# cruNch3r
+# cruNch3r.py
 Mass scan for check live host
 ---
 
