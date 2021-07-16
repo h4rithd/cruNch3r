@@ -76,8 +76,10 @@ def run():
          try:
             req = rq.get(url,timeout=t_out,verify=False)
             soup = BeautifulSoup(req.text, 'html.parser')
-            print (style.GREEN+style.BLINK+" ------- Done | "+url+""+style.RESET)
-            table.add_row([url,req.status_code,soup.title.text])
+            if (soup.title is not None):
+               table.add_row([url,req.status_code,soup.title.text])
+            else:
+               table.add_row([url,req.status_code,'Title Not Found'])
             bar()
          except rq.exceptions.ConnectionError as errc:
             print (style.RED+"-----------------------------------------------------------------"+style.RESET)
