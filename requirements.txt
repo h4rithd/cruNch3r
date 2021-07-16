@@ -1,0 +1,7 @@
+signal
+argparse
+textwrap
+threading
+beautifulsoup4
+prettytable
+alive-progress
