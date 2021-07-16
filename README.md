@@ -1,6 +1,8 @@
 # cruNch3r
 Mass scan for check live host
+---
 
+## Help
 ```
 ┌──(root💀h4rithd)-[/opt/cruNch3r] 🐍 v 0.1
 └─# python3 cruNch3r.py -h                                                                                                                                                                                130 ⨯
@@ -26,11 +28,16 @@ usage: python3 cruNch3r.py -uL [URLList]
 ```
 ---
 
-## 
-
+## Install
+```
+git clone https://github.com/h4rithd/cruNch3r.git
 pip install signal,argparse,textwrap,threading,beautifulsoup4,prettytable,alive-progress
+cd cruNch3r
+python3 cruNch3r.py -h 
+```
 ---
 
+## Test run
 ```
 ┌──(root💀h4rithd)-[/opt/cruNch3r] 🐍 v 0.1
 └─# python3 cruNch3r.py -u urls
