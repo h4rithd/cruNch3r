@@ -32,7 +32,7 @@ usage: python3 cruNch3r.py -uL [URLList]
 ```
 git clone https://github.com/h4rithd/cruNch3r.git
 cd cruNch3r
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 python3 cruNch3r.py -h 
 ```
 ---
