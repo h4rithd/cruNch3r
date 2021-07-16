@@ -31,8 +31,8 @@ usage: python3 cruNch3r.py -uL [URLList]
 ## Install
 ```
 git clone https://github.com/h4rithd/cruNch3r.git
-pip install -r requirements.txt
 cd cruNch3r
+pip install -r requirements.txt
 python3 cruNch3r.py -h 
 ```
 ---
