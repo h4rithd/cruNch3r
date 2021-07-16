@@ -85,7 +85,6 @@ def run():
             print (style.RED+"-----------------------------------------------------------------"+style.RESET)
             print (style.RED+"[!] Error Connecting: Check your internet connection!!"+style.RESET)
             print (style.RED+"-----------------------------------------------------------------"+style.RESET)
-            raise SystemExit
          except rq.exceptions.Timeout as errt:
             print (style.RED+"-----------------------------------------------------------------"+style.RESET)
             print (style.YELLOW+"[!] Timeout Error: Max timeout = 3; use -to flag to increase"+style.RESET)
