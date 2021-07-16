@@ -31,7 +31,7 @@ usage: python3 cruNch3r.py -uL [URLList]
 ## Install
 ```
 git clone https://github.com/h4rithd/cruNch3r.git
-pip install signal,argparse,textwrap,threading,beautifulsoup4,prettytable,alive-progress
+pip install -r requirements.txt
 cd cruNch3r
 python3 cruNch3r.py -h 
 ```
