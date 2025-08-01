@@ -16,7 +16,7 @@ rq.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 parser = argparse.ArgumentParser(
     prog='cruNch3r.py',
     formatter_class=argparse.RawDescriptionHelpFormatter,
-    description=textwrap.dedent('''\
+    description=textwrap.dedent(r'''\
 -------------------------------------------------------------
 ------------ | Mass scan for check live host | --------------
 -------------------------------------------------------------
